@@ -19,7 +19,7 @@ jobs:
     # 🐳 2. Build Backend Docker Image
     - name: Build Backend Image
       run: |
-        cd app/backend
+        cd backend
         docker build -t backend:latest .
 
     # 🔍 3. Scan Docker Image using Trivy
